@@ -1,17 +1,21 @@
 # Shipping Bill Management System
 
+## Live Demo
+
+**Live Website:** [View Shipping Bill Management System](https://vercel.com/sowjanya4/shipping-bill-project)
+
 ## Project Overview
 
 The Shipping Bill Management System is a web application designed to simplify the process of entering and managing shipping bill details. It provides a structured form for recording export-related information, including shipment details, exporter and importer information, invoice details, and other required particulars.
 
-The application focuses on a clean user interface, organized data entry, and a user-friendly experience.
+The application focuses on a clean user interface, organized data entry, form validation, and a user-friendly experience.
 
 ## Features
 
-- **Shipping Bill Details:** Enter and manage essential shipping and export information.
-- **Party Information:** Capture details of exporters, consignees, and other relevant parties.
+- **Shipping Bill Details:** Enter essential shipping and export information.
+- **Party Information:** Capture exporter, consignee, and other relevant party details.
 - **Invoice Details:** Organize invoice-related information for shipments.
-- **Form Validation:** Help users identify missing or invalid information before submission.
+- **Form Validation:** Identify missing or invalid information in form fields.
 - **User-Friendly Interface:** Navigate through organized sections and input fields.
 - **Responsive Design:** Access the application across different screen sizes.
 
@@ -79,7 +83,7 @@ Make sure Node.js and npm are installed on your computer.
    npm run dev
    ```
 
-5. Open the local URL displayed in your terminal to view the application in your browser.
+5. Open the local URL displayed in your terminal to view the application.
 
 ## Purpose
 
@@ -89,8 +93,10 @@ This project demonstrates the development of a modern web application using Reac
 
 **Sowjanya Nimmakayala**
 
-GitHub: [sowjanya2002-design](https://github.com/sowjanya2002-design)
+- **GitHub:** [sowjanya2002-design](https://github.com/sowjanya2002-design)
+- **Project Repository:** [Shipping Bill Management System](https://github.com/sowjanya2002-design/shipping-bill-project)
+- **Deployment Platform:** [Vercel](https://vercel.com/sowjanya4/shipping-bill-project)
 
 ---
 
-This project is maintained as a personal web development project for learning and practical application development.
+Developed as a personal web development project to apply modern frontend development concepts in a practical application.
