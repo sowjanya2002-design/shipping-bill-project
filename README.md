@@ -1,29 +1,96 @@
-# Welcome to your Lovable project
+# Shipping Bill Management System
 
-This project was built with [Lovable](https://lovable.dev).
+## Project Overview
 
-## Build with Lovable
+The Shipping Bill Management System is a web application designed to simplify the process of entering and managing shipping bill details. It provides a structured form for recording export-related information, including shipment details, exporter and importer information, invoice details, and other required particulars.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+The application focuses on a clean user interface, organized data entry, and a user-friendly experience.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Features
 
-## Development
+- **Shipping Bill Details:** Enter and manage essential shipping and export information.
+- **Party Information:** Capture details of exporters, consignees, and other relevant parties.
+- **Invoice Details:** Organize invoice-related information for shipments.
+- **Form Validation:** Help users identify missing or invalid information before submission.
+- **User-Friendly Interface:** Navigate through organized sections and input fields.
+- **Responsive Design:** Access the application across different screen sizes.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Technologies Used
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+- React
+- TypeScript
+- TanStack Start
+- Tailwind CSS
+- Vite
+- npm
+
+## Project Structure
+
+```text
+shipping-bill-project/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── ui/
+│   ├── features/
+│   │   └── shipping-bill/
+│   │       ├── data/
+│   │       ├── details-section.tsx
+│   │       ├── invoices-section.tsx
+│   │       ├── shipping-bill-form.tsx
+│   │       └── validation.ts
+│   ├── routes/
+│   ├── lib/
+│   ├── router.tsx
+│   └── styles.css
+├── package.json
+└── README.md
 ```
 
-## Built with
+## Getting Started
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+### Prerequisites
+
+Make sure Node.js and npm are installed on your computer.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sowjanya2002-design/shipping-bill-project.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd shipping-bill-project
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal to view the application in your browser.
+
+## Purpose
+
+This project demonstrates the development of a modern web application using React and TypeScript, with an emphasis on reusable components, structured forms, validation, and responsive user interface design.
+
+## Author
+
+**Sowjanya Nimmakayala**
+
+GitHub: [sowjanya2002-design](https://github.com/sowjanya2002-design)
+
+---
+
+This project is maintained as a personal web development project for learning and practical application development.
